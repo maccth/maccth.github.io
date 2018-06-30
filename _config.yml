@@ -1,4 +1,4 @@
-theme: minimal-mistakes-jekyll
+remote_theme: minimal-mistakes-jekyll
 name: Christopher Macca
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
