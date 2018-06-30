@@ -1,3 +1,4 @@
 theme: jekyll-theme-modernist
 name: Christopher Macca
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
