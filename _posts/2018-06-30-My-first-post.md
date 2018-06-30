@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Maccth, launches a site!"
 date: 2018-06-30
 ---
