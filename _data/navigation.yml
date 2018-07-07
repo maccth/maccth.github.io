@@ -12,3 +12,40 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+
+docs:
+  - title: Getting Started
+    children:
+      - title: "Quick-Start Guide"
+        url: /projects/
+      - title: "Structure"
+        url: /projects/
+      - title: "Installation"
+        url: /projects/
+      - title: "Upgrading"
+        url: /projects/
+
+  - title: Customization
+    children:
+      - title: "Configuration"
+        url: /projects/
+      - title: "Navigation"
+        url: /projects/
+      - title: "UI Text"
+        url: /projects/
+      - title: "Authors"
+        url: /projects/
+      - title: "Layouts"
+        url: /projects/
+
+  - title: Content
+    children:
+      - title: "Working with Posts"
+        url: /projects/
+      - title: "Working with Pages"
+        url: /projects/
+      - title: "Working with Collections"
+        url: /projects/
+      - title: "Helpers"
+        url: /projects/

@@ -1,7 +1,18 @@
 ---
-layout: default
 title: projects
-gallery:
+layout: home
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/covershot.jpeg
+  cta_label: "<i class='fas fa-download'></i> Install Now"
+  cta_url: "/docs/quick-start-guide/"
+sidebar: 
+  nav: "main"
+---
+
+{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+
+<!-- gallery:
   - url: /assets/images/bookforge/front.jpeg
     image_path: /assets/images/bookforge/front.jpeg
     alt: "placeholder image 1"
@@ -13,7 +24,4 @@ gallery:
   - url: /assets/images/bookforge/submissions.jpeg
     image_path: /assets/images/bookforge/submissions.jpeg
     alt: "placeholder image 3"
-    title: "Image 3 title caption"
----
-
-{% include gallery caption="This is a sample gallery with **Markdown support**." %}
+    title: "Image 3 title caption" -->
