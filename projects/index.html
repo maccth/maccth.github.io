@@ -1,15 +1,50 @@
 ---
 title: projects
-layout: home
+layout: splash
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/headers/peak2.jpeg
   caption: "Photo: [**Hope Valley, Peak District**](https://www.google.co.uk/maps/place/Hope+Valley+S33+0AH/@53.3291873,-1.7790082,12z/data=!4m5!3m4!1s0x487980a86a8b4bf1:0xcd786530b2d286e5!8m2!3d53.338876!4d-1.690345) - Christopher Macca"
-sidebar: 
-  nav: "main"
+
+bookforge:
+- image_path: assets/images/bookforge/front.jpeg
+  title: "Bookforge"
+  excerpt: "a place for authors to come together and collboratively create.
+    Bookforge is a web app where people write books together. Users contribute
+    by submitting what they think the next passage in a book should be. The
+    community then vote, and after a certain amount of time, the passage with
+    the most votes is added to the book, never to be erased."
+  url: "projects/bookforge"
+  btn_label: "read more"
+  btn_class: "btn--primary"
+
+armidello:
+  - image_path: /assets/images/armidello/editor.png
+    title: "Armidello"
+    excerpt: 'a hughly visual ARM IDE'
+    url: "projects/armidello"
+    btn_label: "read more"
+    btn_class: "btn--primary"
+
+graphs:
+- image_path: /assets/images/graphs/text2.png
+  title: "Armidello"
+  excerpt: 'a hughly visual ARM IDE'
+  url: "projects/armidello"
+  btn_label: "read more"
+  btn_class: "btn--primary"
+
+
 ---
+{% include feature_row id="bookforge" type="left" %}
+
+{% include feature_row id="armidello" type="left" %}
+
+{% include feature_row id="graphs" type="left" %}
 
 {% include gallery caption="This is a sample gallery with **Markdown support**." %}
+
+
 
 <!-- gallery:
   - url: /assets/images/bookforge/front.jpeg
