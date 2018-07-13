@@ -29,81 +29,81 @@ teaser                   : # path of fallback teaser image, e.g. "/assets/images
 words_per_minute         : 200
 
 
-comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
-  disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
-  discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+# comments:
+#   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+#   disqus:
+#     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+#   discourse:
+#     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+#   facebook:
+#     # https://developers.facebook.com/docs/plugins/comments
+#     appid                :
+#     num_posts            : # 5 (default)
+#     colorscheme          : # "light" (default), "dark"
 
 
-staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
-  transforms:
-    email                : # "md5"
-  generatedFields:
-    date:
-      type               : # "date"
-      options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+# staticman:
+#   allowedFields          : # ['name', 'email', 'url', 'message']
+#   branch                 : # "master"
+#   commitMessage          : # "New comment."
+#   filename               : # comment-{@timestamp}
+#   format                 : # "yml"
+#   moderation             : # true
+#   path                   : # "/_data/comments/{options.slug}" (default)
+#   requiredFields         : # ['name', 'email', 'message']
+#   transforms:
+#     email                : # "md5"
+#   generatedFields:
+#     date:
+#       type               : # "date"
+#       options:
+#         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 
 
-reCaptcha:
-  siteKey                :
-  secret                 :
+# reCaptcha:
+#   siteKey                :
+#   secret                 :
 
 
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+# atom_feed:
+#   path                   : # blank (default) uses feed.xml
 
 
-search                   : true # false (default)
-search_full_content      : true # false (default)
+search                   : false # false (default)
+search_full_content      : false # false (default)
 search_provider          : lunr # lunr (default), algolia, google
 
 
-google:
-  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
-  instant_search         : # false (default), true
+# google:
+#   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+#   instant_search         : # false (default), true
 
 
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+# # SEO Related
+# google_site_verification :
+# bing_site_verification   :
+# yandex_site_verification :
+# naver_site_verification  :
 
 
-# Social Sharing
-twitter:
-  username               :
+# # Social Sharing
+# twitter:
+#   username               :
 
 
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
+# facebook:
+#   username               :
+#   app_id                 :
+#   publisher              :
 
 
-og_image                 : # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+# og_image                 : # Open Graph/Twitter default site image
+# # For specifying social profiles
+# # - https://developers.google.com/structured-data/customize/social-profiles
+# social:
+#   type                   : # Person or Organization (defaults to Person)
+#   name                   : # If the user or organization name differs from the site's name
+#   links: # An array of links to social media profiles
 
 
 # Analytics  
@@ -121,37 +121,39 @@ author:
   bio              : "I'm a final year electronic and information engineering student excited by technology, people, and what we can achieve together"
   location         : "London"
   email            : "christophermacca@hotmail.co.uk"
-  uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
+  # uri              :
+  # home             : # null (default), "absolute or relative url to link to author home"
+  # bitbucket        :
+  # codepen          :
+  # dribbble         :
+  # flickr           :
+  # facebook         :
+  # foursquare       :
   github           : "maccth"
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        :
-  lastfm           :
+  # gitlab           :
+  # google_plus      :
+  # keybase          :
+  # instagram        :
+  # lastfm           :
   linkedin         : "maccth"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  # pinterest        :
+  # soundcloud       :
+  # stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  # steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
+  # tumblr           :
+  # twitter          :
+  # vine             :
+  # weibo            :
+  # xing             :
+  # youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - about
+  - projects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
