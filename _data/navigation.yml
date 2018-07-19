@@ -21,3 +21,8 @@ projects:
       url: /projects/armidello
     - title: "Bookforge"
       url: /projects/bookforge
+    - title: "C Compiler"
+      url: /projects/
+    - title: "MIPS Simulator"
+      url: /projects/
+
