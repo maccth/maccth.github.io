@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "about"
-    url: /about/
-  - title: "projects"
-    url: /projects/
+  # - title: "about"
+  #   url: /about/
+  # - title: "projects"
+  #   url: /projects/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -14,15 +14,15 @@ main:
   #   url: /sitemap/
 
 
-projects:
-  - title: "Projects"
-    children:
-    - title: "Armidello"
-      url: /projects/armidello
-    - title: "Bookforge"
-      url: /projects/bookforge
-    - title: "C Compiler"
-      url: /projects/
-    - title: "MIPS Simulator"
-      url: /projects/
+# projects:
+#   - title: "Projects"
+#     children:
+#     - title: "Armidello"
+#       url: /projects/armidello
+#     - title: "Bookforge"
+#       url: /projects/bookforge
+#     - title: "C Compiler"
+#       url: /projects/
+#     - title: "MIPS Simulator"
+#       url: /projects/
 
