@@ -1,19 +1,26 @@
-<!-- ---
-title: hello!
-layout: splash
-classes: wide
-header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/headers/orsay.jpeg
-  caption: "Photo: [**Musée d'Orsay, Paris**](http://www.musee-orsay.fr/en/home.html) - Christopher Macca"
-  cta_label: "<i class='fas fa-handshake'></i> <i>- hi?</i>"
-  cta_url: "/about/"
-excerpt: ""
 ---
-<p>
-  <b>Hello</b> and welcome to my portfolio! Here you'll find some projects I've worked on,<br>
-  some things that I'm interested in, and a little bit about me.
-</p>
-  <b>Over</b> there in the top right there are some links. Why don't you take a gander?<br>
-  If anything interests you, or if you have any questions <a href="mailto:christophermacca@hotmail.co.uk?Subject=hello!">shoot me an email</a>.
-</p> -->
+layout: default
+title: Long Haul
+---
+
+<div class="home" id="home">
+  <h1 class="pageTitle">Recent Posts</h1>
+  <div class="posts noList">
+    {%- for post in paginator.posts -%}
+      <article>
+        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+        <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p>{%- if post.description -%}{{ post.description }}{%- else -%}{{ post.excerpt | strip_html }}{%- endif -%}</p>
+      </article>
+    {%- endfor -%}
+  </div>
+  <!-- Pagination links -->
+  <div class="pagination">
+    {%- if paginator.previous_page -%}
+      <a href="{{ paginator.previous_page_path }}" class="previous button__outline">Newer Posts</a> 
+    {%- endif -%}
+    {%- if paginator.next_page -%}
+      <a href="{{ paginator.next_page_path }}" class="next button__outline">Older Posts</a>
+    {%- endif -%}
+  </div>
+</div>
