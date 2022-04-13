@@ -177,7 +177,7 @@ HEADER STYLING
 
 .header {
 	background-color: $background-color;
-	background-image: url('../img/touring.jpg');
+	// background-image: url('../img/touring.jpg');
 	background-size: cover;
 	background-position: center center;
 	color: white;
@@ -502,20 +502,20 @@ POST LIST STYLING
 DARK THEME STYLING
 ***************/
 
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: black;
-		color: white;
-	}
+// @media (prefers-color-scheme: dark) {
+// 	body {
+// 		background-color: black;
+// 		color: white;
+// 	}
 
-	.posts article .date {
-		color: white;
-	}
-	.postNav {
-		border-top: 1px solid lighten(black, 10%);
-		border-bottom: 1px solid lighten(black, 10%);
-	}
-	.footer .container {
-		border-top-color: lighten(black, 10%);
-	}
-}
+// 	.posts article .date {
+// 		color: white;
+// 	}
+// 	.postNav {
+// 		border-top: 1px solid lighten(black, 10%);
+// 		border-bottom: 1px solid lighten(black, 10%);
+// 	}
+// 	.footer .container {
+// 		border-top-color: lighten(black, 10%);
+// 	}
+// }

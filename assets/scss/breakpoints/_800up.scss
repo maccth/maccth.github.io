@@ -21,7 +21,7 @@ body {
 		position: absolute;
 		top: -2em;
 		left: 0;
-		transform: skewY(-2deg);
+		// transform: skewY(-2deg);
 		transform-origin: bottom left; 
 	}
 }
@@ -64,7 +64,7 @@ HEADER STYLING
 		position: relative;
 		top: 50%;
 		transform: translateY(-50%);
-    max-width: 800px;
+        max-width: 800px;
 		overflow: hidden;
 	}
 
@@ -249,13 +249,13 @@ CONTACT PAGE STYLING
 DARK THEME STYLING
 ***************/
 
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: black;
-		color: white;
-	}
-	.content:after,
-	.post .featuredImage:before {
-		background: black;
-	}
-  }
+// @media (prefers-color-scheme: dark) {
+// 	body {
+// 		background-color: black;
+// 		color: white;
+// 	}
+// 	.content:after,
+// 	.post .featuredImage:before {
+// 		background: black;
+// 	}
+//   }
