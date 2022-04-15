@@ -25,11 +25,12 @@ $grey:   #aaa;
 $black:  #111;
 
 // Color variables
-$primary-color: seagreen;
+$primary-color: #627d86;
 $secondary-color: #233E5B;
 $tertiary-color: #aaa;
 $link-color: $primary-color;
 $background-color: $primary-color;
+$test-primary-color: #b4d6e4;
 
 $bad-color: $red; // Bad color for errors, validation etc.
 $good-color: $green; // Good color for success etc.
@@ -52,5 +53,10 @@ $line-height: 44px; // Consistent height for buttons, inputs etc.
 TYPE SETTINGS
 ***************/
 
-$sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
+// $sans-serif: "Open Sans", Helvetica, Arial, sans-serif;
+// $sans-serif: 'Roboto Condensed', sans-serif;
+// $sans-serif: "Heebo", sans-serif;
+$sans-serif: "Source Sans Pro", sans-serif; 
+
 $serif: "PT Serif", Georgia, Times, serif;
+
