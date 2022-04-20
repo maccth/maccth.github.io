@@ -40,13 +40,14 @@ HOMEPAGE STYLING
 
 #home {
 	.posts, .pageTitle, .pagination {
-    width: 75%;
+        width: 75%;
 		float: none;
-		margin: 0 auto 1.5em;
+		margin: 0 auto 1.5em;;
 	}
 
 	.pageTitle {
 		margin: 2rem auto 1em;
+        color: $page-title-color;
 	}
 }
 
@@ -56,7 +57,7 @@ HEADER STYLING
 ***************/
 
 .header {
-	height: 8em;
+	height: 7em;
 	position: relative;
 	padding-bottom: 0em;
 
@@ -64,7 +65,7 @@ HEADER STYLING
 		position: relative;
 		top: 50%;
 		transform: translateY(-50%);
-        max-width: 800px;
+        max-width: 750px;
 		overflow: hidden;
 	}
 
@@ -107,18 +108,6 @@ HEADER STYLING
 		}
 	}
 }
-
-// Large Header Size
-
-.header--large {
-	height: 50vh;
-
-	.container {
-		top: 90%;
-		transform: translateY(-100%);
-	}
-}
-
 
 /***************
 MENU STYLING
