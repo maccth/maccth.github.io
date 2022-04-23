@@ -216,6 +216,7 @@ POST STYLING
 		text-align: center;
 		margin-top: 2rem;
 		margin-bottom: 1rem;
+        color: $page-title-color;
 	}
 
 	blockquote {
@@ -481,6 +482,8 @@ POST LIST STYLING
 			&:hover {
 				text-decoration: underline;
 			}
+
+            color: $page-header-color;
 		}
 
 		.date {
