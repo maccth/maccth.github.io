@@ -486,6 +486,10 @@ POST LIST STYLING
             color: $page-header-color;
 		}
 
+        p {
+            color: $page-text-color;
+        }
+
 		.date {
 			color: lighten(black, 50%);
 			font-family: $sans-serif;

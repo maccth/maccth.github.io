@@ -1,12 +1,9 @@
 title: CM
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+# description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
 
 # url: https://long-haul.netlify.app
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
-
-# Header Option
-# header: large
 
 markdown: kramdown
 highlighter: rouge
@@ -18,17 +15,17 @@ navigation:
     url: /index.html
   - title: About
     url: /about
-  - title: Contact
-    url: /contact
+  # - title: Contact
+  #   url: /contact
 
-social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
-  linkedin: brianmaierjr
+# social:
+#   github: brianmaierjr
+#   twitter: brianmaierjr
+#   facebook: brianmaierjr
+#   email: brimaidesigns@gmail.com
+#   linkedin: brianmaierjr
 
-google_analytics: "UA-58263416-1"
+# google_analytics: "UA-58263416-1"
 
 # disqus:
 #     shortname: brianmaierjr
