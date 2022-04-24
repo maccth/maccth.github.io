@@ -7,9 +7,9 @@ body {
 }
 
 .content {
-	padding-top: 0;
-	position: relative;
-	z-index: 1;
+	// padding-top: 0;
+	// position: relative;
+	// z-index: 1;
 
 	&:after {
 		z-index: -1; 
@@ -56,23 +56,35 @@ HEADER STYLING
 ***************/
 
 .header {
-	height: 6em;
-	position: relative;
-	padding-bottom: 0em;
+    font-size: 100%;
+	background-color: $header-color;
+	background-size: cover;
+	background-position: center center;
+	color: $primary-color;
+	padding: 0;
+	height: 3em;
+    letter-spacing: 2px;
 
 	.container {
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
-        max-width: 750px;
-		overflow: hidden;
+		padding: 0;
+        max-width: 100%;
 	}
 
 	h1 {
-		font-size: 2.3em;
-		line-height: 1;
-		letter-spacing: 6px;
-		padding-left: 0;
+		margin: 0;
+		float: left;
+		padding-left: 2rem;
+		font-size: 1em;
+		line-height: 3em;
+		font-family: $sans-serif;
+		font-weight: 900;
+		text-transform: uppercase;
+
+		a {
+			color: $white;
+			text-decoration: none;
+            // font-family: $logo-font;
+		}
 	}
 
 	nav {
