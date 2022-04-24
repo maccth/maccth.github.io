@@ -77,8 +77,8 @@ MENU STYLING
 		li {
 		  width: 100%;
 		  display: block;
-		  background: $background-color;
-		  border-bottom: 2px solid lighten($background-color, 5%);
+		  background: $page-header-color;
+		  border-bottom: 2px solid lighten($page-header-color, 5%);
 
 		  a {
 		  	color: white;
@@ -116,7 +116,7 @@ MENU STYLING
   float: right;
   line-height: 2em;
   margin-top: .5em;
-  background-color: $background-color;
+  background-color: $page-header-color;
   border-radius: 4px;
   padding: 0 .5em;
   color: white;
@@ -165,6 +165,7 @@ PAGE STYLES
 .pageTitle {
 	margin: 2rem auto 1em;
 	text-align: center;
+    color: $page-title-color;
 }
 
 .content {
@@ -201,6 +202,7 @@ HEADER STYLING
 		a {
 			color: $white;
 			text-decoration: none;
+            // font-family: $logo-font;
 		}
 	}
 }
